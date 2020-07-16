@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Documents/GitHub/Games/Sudoku/sudoku_field_treatment.cpp
+sudoku_field_treatment.h
+D:/Documents/GitHub/Games/Sudoku/sudoku_field_treatment.h
+iostream
+-
+fstream
+-
+cmath
+-
+set
+-
+algorithm
+-
+
+D:/Documents/GitHub/Games/Sudoku/sudoku_field_treatment.h
+vector
+-
+set
+-
+
