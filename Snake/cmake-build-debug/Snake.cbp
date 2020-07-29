@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Documents/GitHub/Games/Snake/Snake_functions.cpp">
+		<Unit filename="D:/Documents/GitHub/Games/Snake/game_engine.h">
 			<Option target="Snake"/>
 		</Unit>
 		<Unit filename="D:/Documents/GitHub/Games/Snake/main.cpp">

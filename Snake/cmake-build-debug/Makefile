@@ -122,33 +122,6 @@ Snake/fast:
 	$(MAKE) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/build
 .PHONY : Snake/fast
 
-Snake_functions.obj: Snake_functions.cpp.obj
-
-.PHONY : Snake_functions.obj
-
-# target to build an object file
-Snake_functions.cpp.obj:
-	$(MAKE) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/Snake_functions.cpp.obj
-.PHONY : Snake_functions.cpp.obj
-
-Snake_functions.i: Snake_functions.cpp.i
-
-.PHONY : Snake_functions.i
-
-# target to preprocess a source file
-Snake_functions.cpp.i:
-	$(MAKE) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/Snake_functions.cpp.i
-.PHONY : Snake_functions.cpp.i
-
-Snake_functions.s: Snake_functions.cpp.s
-
-.PHONY : Snake_functions.s
-
-# target to generate assembly for a file
-Snake_functions.cpp.s:
-	$(MAKE) -f CMakeFiles\Snake.dir\build.make CMakeFiles/Snake.dir/Snake_functions.cpp.s
-.PHONY : Snake_functions.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -185,9 +158,6 @@ help:
 	@echo ... Snake
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Snake_functions.obj
-	@echo ... Snake_functions.i
-	@echo ... Snake_functions.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

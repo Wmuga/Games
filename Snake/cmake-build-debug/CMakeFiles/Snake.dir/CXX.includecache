@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Documents/GitHub/Games/Snake/game_engine.h
+vector
+-
+iostream
+-
+
+D:/Documents/GitHub/Games/Snake/main.cpp
+iostream
+-
+thread
+-
+windows.h
+-
+algorithm
+-
+conio.h
+-
+game_engine.h
+D:/Documents/GitHub/Games/Snake/game_engine.h
+

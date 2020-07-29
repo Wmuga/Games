@@ -48,10 +48,57 @@
       <option name="presentableId" value="Default" />
       <updated>1596024994575</updated>
       <workItem from="1596024996377" duration="377000" />
+      <workItem from="1596050972007" duration="2930000" />
+      <workItem from="1596060154135" duration="2865000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1220" height="253" key="GridCell.Tab.0.bottom" timestamp="1596063026802">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1220" height="253" key="GridCell.Tab.0.bottom/1280.-120.1280.984/0.0.1280.984@0.0.1280.984" timestamp="1596063026802" />
+    <state width="1220" height="253" key="GridCell.Tab.0.center" timestamp="1596063026802">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1220" height="253" key="GridCell.Tab.0.center/1280.-120.1280.984/0.0.1280.984@0.0.1280.984" timestamp="1596063026802" />
+    <state width="1220" height="253" key="GridCell.Tab.0.left" timestamp="1596063026802">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1220" height="253" key="GridCell.Tab.0.left/1280.-120.1280.984/0.0.1280.984@0.0.1280.984" timestamp="1596063026802" />
+    <state width="1220" height="253" key="GridCell.Tab.0.right" timestamp="1596063026802">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1220" height="253" key="GridCell.Tab.0.right/1280.-120.1280.984/0.0.1280.984@0.0.1280.984" timestamp="1596063026802" />
+    <state width="1220" height="313" key="GridCell.Tab.1.bottom" timestamp="1596053923760">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1220" height="313" key="GridCell.Tab.1.bottom/1280.-120.1280.984/0.0.1280.984@0.0.1280.984" timestamp="1596053923760" />
+    <state width="1220" height="313" key="GridCell.Tab.1.center" timestamp="1596053923760">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1220" height="313" key="GridCell.Tab.1.center/1280.-120.1280.984/0.0.1280.984@0.0.1280.984" timestamp="1596053923760" />
+    <state width="1220" height="313" key="GridCell.Tab.1.left" timestamp="1596053923760">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1220" height="313" key="GridCell.Tab.1.left/1280.-120.1280.984/0.0.1280.984@0.0.1280.984" timestamp="1596053923760" />
+    <state width="1220" height="313" key="GridCell.Tab.1.right" timestamp="1596053923760">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1220" height="313" key="GridCell.Tab.1.right/1280.-120.1280.984/0.0.1280.984@0.0.1280.984" timestamp="1596053923760" />
+    <state x="303" y="215" width="672" height="678" key="search.everywhere.popup" timestamp="1596051105595">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="215" width="672" height="678" key="search.everywhere.popup/1280.-120.1280.984/0.0.1280.984@0.0.1280.984" timestamp="1596051105595" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="new_pos" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
