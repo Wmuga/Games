@@ -8,6 +8,7 @@
 class Snake:public console_game_engine{
     const char c_snake = '%';
     const char c_apple = '*';
+    int points = 0;
     std::vector<std::pair<int,int> > snake_tail;
     enum direction{STOP=0,LEFT,UP,RIGHT,DOWN};
     static direction snake_direction;
@@ -84,6 +85,7 @@ void Snake::GetKey() {
                 break;
         }
     }
+    Sleep(100);
 }
 
 void Snake::Game() {

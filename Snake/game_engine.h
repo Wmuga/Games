@@ -3,6 +3,7 @@
  */
 #include <vector>
 #include <iostream>
+
 class console_game_engine
 {
 protected:
@@ -30,8 +31,8 @@ console_game_engine::console_game_engine(unsigned int width, unsigned int heigth
         }
     field.shrink_to_fit();
 }
-
-//simpliest field draw
+#ifndef _WINDOWS_
+//simple field draw
 void console_game_engine::Draw() {
     system("cls");
     for (size_t j = 0 ;j<field_h;j++) {
@@ -40,7 +41,23 @@ void console_game_engine::Draw() {
     std::cout<<std::endl;
     }
 }
+#endif
 
+#ifdef _WINDOWS_
+//On Windows libr field draw
+void console_game_engine::Draw() {
+
+    COORD position = {0,0}; //позиция x и y
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleCursorPosition(hConsole, position);
+
+    for (size_t j = 0 ;j<field_h;j++) {
+        for (size_t i = 0; i < field_w; i++)
+            std::cout << field[j*field_w+i] << " ";
+        std::cout<<std::endl;
+    }
+}
+#endif
 //Just waiting for pressing - everything should be in game itself
 void console_game_engine::Logic() {
     if (getchar()) is_game = false;
